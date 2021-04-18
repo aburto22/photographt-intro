@@ -1,0 +1,34 @@
+main {
+  margin-top: 40px;
+  
+  .anchor {
+    top: -2.5rem;
+  }
+  
+    li:before {
+    content: '-';
+    display: block;
+    float: left;
+    margin-left: -1rem;
+  }
+  
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    width: 175px;
+    height: 100%;
+  }
+  
+  main {    
+    margin-left: 175px;
+    margin-top: 0;
+    
+    .anchor {
+      top: -1rem;
+    }
+  }
+}

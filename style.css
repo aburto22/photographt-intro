@@ -1,0 +1,32 @@
+main {
+  margin-top: 40px;
+}
+main .anchor {
+  top: -2.5rem;
+}
+main li:before {
+  content: "-";
+  display: block;
+  float: left;
+  margin-left: -1rem;
+}
+main footer {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  #navbar {
+    width: 175px;
+    height: 100%;
+  }
+
+  main {
+    margin-left: 175px;
+    margin-top: 0;
+  }
+  main .anchor {
+    top: -1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
