@@ -1,2 +1,2 @@
-# photographt-intro
+# photography-intro
 A bit about photography and exposure
